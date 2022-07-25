@@ -1,0 +1,43 @@
+body {
+  background:
+  url(bg-cherrybrossam.jpg);
+  background-size: cover;
+  font-family:cursive;
+}
+
+
+h1{
+  background: -webkit-linear-gradient(left, #453a94, #f43b47);
+  background: -o-linear-gradient(left, #453a94, #f43b47);
+  background: linear-gradient(to right, #453a94, #f43b47);
+  color: white;
+}
+div.bg-rgba {
+ background-color:rgba(255,255,255,0.8);
+
+ margin: auto;
+ text-align: left;
+}
+
+a {
+color:#F00;
+}
+a:link { /*アクセスしたことのないリンク*/
+color:#0000FF; ←青色
+}
+a:visited { /*アクセスしたことのあるリンク*/
+color:#6600FF;　←紫色
+}
+a:hover {/*マウスが上に乗っている状態*/
+color:#FF0099;　←ピンク色
+text-decoration:underline;　←下線を表示
+}
+a:active {/*クリック中*/
+color:#33CC00;　←緑色
+}
+
+
+
+background: linear-gradient(transparent 70%, #a7d6ff 70%);
+
+}
