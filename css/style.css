@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
@@ -68,6 +68,14 @@ img {
   margin-bottom: 30px;
 }
 
+.works-subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  letter-spacing: .08em;
+}
+
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
@@ -77,7 +85,7 @@ img {
   z-index: 1;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  box-shadow: 0 5px 10px -6px rgba(0, 0, 0, .1);
 }
 
 .header .container {
@@ -119,6 +127,7 @@ img {
   letter-spacing: .05em;
   color: #333;
 }
+
 .gnav-item a:after {
   position: absolute;
   bottom: 0;
@@ -158,6 +167,7 @@ img {
   margin-bottom: 5px;
   letter-spacing: .1em;
 }
+
 .mv-subtitle {
   font-size: 20px;
   font-weight: bold;
@@ -178,6 +188,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+
 }
 
 .works-item {
@@ -256,14 +267,17 @@ img {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .profile-img {
   width: 20%;
   margin-right: 30px;
   border-radius: 50%;
 }
+
 .profile-img img {
   border-radius: 50%;
 }
+
 .profile-body {
   flex: 1;
 }
@@ -291,6 +305,7 @@ img {
 .contact-text {
   margin-top: 10px;
 }
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
@@ -404,6 +419,11 @@ img {
     margin-bottom: 20px;
   }
 
+  .works-subtitle {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+
   /* レイアウト */
   .wrapper {
     padding-top: 57px;
@@ -451,6 +471,7 @@ img {
   .mv-title {
     font-size: 30px;
   }
+
   .mv-subtitle {
     font-size: 16px;
     margin-bottom: 20px;
@@ -508,6 +529,7 @@ img {
   .profile {
     display: block;
   }
+
   .profile-img {
     width: 150px;
     margin: 0 auto;
