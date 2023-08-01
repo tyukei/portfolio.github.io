@@ -2,7 +2,7 @@
 <body>
 <?php
 
-$CLIENTID="i8NJn5vETrCUX5TUCru3Pw";
+$CLIENTID="1rusOLs0QDeo9GeTYiMXCQ";
 $REDIRECTURI="https://tyukei.github.io/portfolio.github.io/lab/redirect.php";
 $REQUESTURI="https://zoom.us/oauth/authorize?response_type=code&client_id=" . $CLIENTID . "&redirect_uri=" . $REDIRECTURI;
 
